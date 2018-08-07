@@ -1,6 +1,7 @@
-def parrot( sound = "Squawk!")
-  puts "#{sound}"
-  return sound
+
+def parrot( phrase = "Squawk!")
+  puts "#{phrase}"
+  return phrase
 
 end
 parrot()
